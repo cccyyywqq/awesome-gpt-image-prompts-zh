@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/awesome-gpt-image-prompts-zh/schema/prompt.schema.json",
+  "title": "Awesome GPT Image Prompts ZH",
+  "type": "object",
+  "required": ["name", "language", "version", "license", "prompts"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "language": {
+      "const": "zh-CN"
+    },
+    "version": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "category",
+          "use_case",
+          "aspect_ratio",
+          "prompt",
+          "negative_prompt",
+          "tags",
+          "variables",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-[0-9]{3}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "poster-illustration",
+              "ecommerce-product",
+              "portrait-photography",
+              "character-ip",
+              "social-ui",
+              "architecture-scene"
+            ]
+          },
+          "use_case": {
+            "type": "string"
+          },
+          "aspect_ratio": {
+            "type": "string",
+            "pattern": "^[0-9]+:[0-9]+$"
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 30
+          },
+          "negative_prompt": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "variables": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source": {
+            "type": "string",
+            "enum": ["original", "community"]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

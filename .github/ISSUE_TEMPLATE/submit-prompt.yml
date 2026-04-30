@@ -1,0 +1,49 @@
+name: 提交中文提示词
+description: 分享一条新的中文图像生成提示词
+title: "[Prompt] "
+labels: ["prompt"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 标题
+      placeholder: 例如：护肤品电商主图
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - poster-illustration
+        - ecommerce-product
+        - portrait-photography
+        - character-ip
+        - social-ui
+        - architecture-scene
+    validations:
+      required: true
+  - type: input
+    id: aspect_ratio
+    attributes:
+      label: 画幅比例
+      placeholder: 例如：1:1、3:4、16:9
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 正向提示词
+      description: 请使用中文，尽量包含主体、场景、构图、风格、光线、材质、文字和限制条件。
+    validations:
+      required: true
+  - type: textarea
+    id: negative_prompt
+    attributes:
+      label: 限制条件
+      placeholder: 例如：避免错误文字、产品形变、低清晰度、背景杂乱。
+  - type: textarea
+    id: result
+    attributes:
+      label: 生成结果与参数
+      description: 可填写模型版本、尺寸、生成图链接、失败点或修正建议。
