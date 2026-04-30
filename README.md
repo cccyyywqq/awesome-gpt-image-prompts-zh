@@ -1,5 +1,9 @@
 # Awesome GPT Image 中文提示词
 
+[![Validate](https://github.com/cccyyywqq/awesome-gpt-image-prompts-zh/actions/workflows/validate.yml/badge.svg)](https://github.com/cccyyywqq/awesome-gpt-image-prompts-zh/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Language](https://img.shields.io/badge/language-zh--CN-red.svg)](data/prompts.zh-CN.json)
+
 中文原生的 GPT Image / 多模态图像生成提示词库，收集可直接复制、改写和贡献的中文提示词。项目参考了 [EvoLinkAI/awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) 的组织方式，但提示词内容为中文原创，适合中文品牌、电商、海报、插画、社媒和产品工作流。
 
 ## 项目定位
@@ -8,6 +12,13 @@
 - 每条提示词尽量包含主体、场景、构图、风格、光线、材质、文字和限制条件。
 - 同时提供 Markdown 案例和 JSON 数据，方便阅读、检索和二次开发。
 - 欢迎贡献生成结果图、参数、模型版本和失败案例复盘。
+
+## 适合谁
+
+- 设计师：快速获得中文海报、电商图、社媒封面的可改写提示词。
+- 内容团队：沉淀品牌常用视觉风格和活动模板。
+- 开发者：基于 JSON 数据构建搜索站点、插件、CLI 或评测工具。
+- 研究者：观察中文文字生成、商品视觉和本土场景的稳定性。
 
 ## 快速开始
 
@@ -71,6 +82,34 @@
 ## 数据文件
 
 结构化数据位于 [data/prompts.zh-CN.json](data/prompts.zh-CN.json)，字段规范见 [schema/prompt.schema.json](schema/prompt.schema.json)。你可以基于它做搜索站点、CLI、浏览器插件或自动化评测。
+
+## 本地校验
+
+```powershell
+npm run validate
+npm run stats
+```
+
+校验会检查 JSON 可解析、字段完整、ID 唯一、分类有效、中文提示词存在和案例文件完整性。GitHub Actions 会在 push 和 pull request 时自动运行。
+
+## 项目结构
+
+```text
+.
+├── cases/                  # 按分类整理的 Markdown 案例
+├── data/                   # 结构化提示词数据
+├── docs/                   # 写作指南、质量清单和路线图
+├── schema/                 # JSON 字段规范
+├── scripts/                # 校验与统计脚本
+└── .github/                # 工作流、Issue 模板、PR 模板
+```
+
+## 文档
+
+- [中文图像提示词写作指南](docs/prompt-writing-guide.md)
+- [提示词质量清单](docs/quality-checklist.md)
+- [Roadmap](docs/roadmap.md)
+- [安全说明](SECURITY.md)
 
 ## 贡献方式
 

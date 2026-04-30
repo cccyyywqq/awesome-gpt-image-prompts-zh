@@ -1,0 +1,15 @@
+{
+  "name": "awesome-gpt-image-prompts-zh",
+  "version": "0.1.0",
+  "private": true,
+  "description": "中文原生的 GPT Image / 多模态图像生成提示词库",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "stats": "node scripts/stats.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

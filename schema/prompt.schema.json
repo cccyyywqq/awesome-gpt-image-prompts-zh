@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/awesome-gpt-image-prompts-zh/schema/prompt.schema.json",
+  "$id": "https://github.com/cccyyywqq/awesome-gpt-image-prompts-zh/blob/main/schema/prompt.schema.json",
   "title": "Awesome GPT Image Prompts ZH",
   "type": "object",
   "required": ["name", "language", "version", "license", "prompts"],

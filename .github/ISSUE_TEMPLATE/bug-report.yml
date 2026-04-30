@@ -1,0 +1,24 @@
+name: 内容问题反馈
+description: 报告提示词、文档或数据格式中的问题
+title: "[Issue] "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 位置
+      placeholder: 例如：cases/ecommerce-product.md 的 E003
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明错误文字、格式问题、内容风险或生成表现不稳定的地方。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 修改建议
+      description: 如果你有更好的提示词写法，可以直接贴出来。

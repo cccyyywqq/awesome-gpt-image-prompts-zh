@@ -22,6 +22,9 @@
 - 商业图要写清产品占比、镜头角度和背景复杂度。
 - 人像图要写清年龄段、气质、服装、姿态和镜头语言。
 - 不提交侵犯第三方版权、商标或肖像权的内容。
+- 不提交密钥、token、cookie、真实证件、私人联系方式等敏感信息。
+
+更多建议见 [中文图像提示词写作指南](docs/prompt-writing-guide.md) 和 [提示词质量清单](docs/quality-checklist.md)。
 
 ## 数据格式
 
@@ -30,7 +33,7 @@
 提交前可以用 PowerShell 检查 JSON：
 
 ```powershell
-Get-Content data/prompts.zh-CN.json -Raw | ConvertFrom-Json | Out-Null
+npm run validate
 ```
 
 ## Pull Request
@@ -41,3 +44,4 @@ Get-Content data/prompts.zh-CN.json -Raw | ConvertFrom-Json | Out-Null
 - 是否附带生成结果图。
 - 是否验证过中文文字可读性。
 - 是否存在模型版本相关的限制。
+- 是否运行过 `npm run validate`。
