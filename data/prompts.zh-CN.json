@@ -38,7 +38,18 @@
       "negative_prompt": "错误文字、画面拥挤、低清晰度、过度炫光",
       "tags": ["活动", "音乐节", "主视觉", "城市"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-music-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为海报与插画类输出样板。"
+        }
+      ]
     },
     {
       "id": "poster-book-003",
@@ -50,7 +61,18 @@
       "negative_prompt": "恐怖风、文字错误、过度装饰、低清晰度",
       "tags": ["书封", "文学", "插画", "雨夜"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-book-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为海报与插画类输出样板。"
+        }
+      ]
     },
     {
       "id": "poster-infographic-004",
@@ -62,7 +84,18 @@
       "negative_prompt": "错误数字、小字过多、复杂背景、图标风格不统一",
       "tags": ["信息图", "健康", "社媒", "中文排版"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-infographic-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为海报与插画类输出样板。"
+        }
+      ]
     },
     {
       "id": "ecommerce-skincare-001",
@@ -97,7 +130,18 @@
       "negative_prompt": "夸张火焰、卡通感、产品变形、错误文字",
       "tags": ["运动鞋", "产品广告", "电商", "科技感"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-shoes-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为电商产品视觉样板。"
+        }
+      ]
     },
     {
       "id": "ecommerce-tea-003",
@@ -109,7 +153,18 @@
       "negative_prompt": "俗气金光、复杂边框、文字错误、产品形变",
       "tags": ["茶叶", "礼盒", "国风", "包装"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-tea-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为电商产品视觉样板。"
+        }
+      ]
     },
     {
       "id": "ecommerce-watch-004",
@@ -121,7 +176,18 @@
       "negative_prompt": "界面乱码、产品变形、过度炫光、廉价塑料感",
       "tags": ["智能手表", "科技", "广告", "健康"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-watch-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为电商产品视觉样板。"
+        }
+      ]
     },
     {
       "id": "portrait-business-001",
@@ -156,7 +222,18 @@
       "negative_prompt": "过度磨皮、错误文字、廉价影楼感、背景杂乱",
       "tags": ["杂志", "人像", "设计师", "摄影棚"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-magazine-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为人像摄影类输出样板。"
+        }
+      ]
     },
     {
       "id": "portrait-street-003",
@@ -168,7 +245,18 @@
       "negative_prompt": "脸部变形、过暗、低清晰度、霓虹过度",
       "tags": ["街头", "人像", "电影感", "夜景"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-street-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为人像摄影类输出样板。"
+        }
+      ]
     },
     {
       "id": "portrait-lifestyle-004",
@@ -180,7 +268,18 @@
       "negative_prompt": "广告硬照感、过度滤镜、杂乱桌面、表情僵硬",
       "tags": ["生活方式", "摄影", "早餐", "自律"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-lifestyle-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为人像摄影类输出样板。"
+        }
+      ]
     },
     {
       "id": "character-milk-tea-001",
@@ -215,7 +314,18 @@
       "negative_prompt": "过度复杂、脸部同质化、武器变形、低清晰度",
       "tags": ["国风", "角色设定", "游戏", "侠客"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-xiake-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为角色与 IP 类输出样板。"
+        }
+      ]
     },
     {
       "id": "character-robot-003",
@@ -227,7 +337,18 @@
       "negative_prompt": "复杂机械结构、阴影过多、表情不可读、风格不统一",
       "tags": ["教育", "App", "机器人", "引导页"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-robot-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为角色与 IP 类输出样板。"
+        }
+      ]
     },
     {
       "id": "character-sticker-004",
@@ -239,7 +360,18 @@
       "negative_prompt": "小字、复杂阴影、错误文字、表情重复",
       "tags": ["表情包", "贴纸", "中文", "上班族"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-sticker-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为角色与 IP 类输出样板。"
+        }
+      ]
     },
     {
       "id": "social-xhs-001",
@@ -274,7 +406,18 @@
       "negative_prompt": "英文乱码、背景过花、错误数字、图标不统一",
       "tags": ["知识卡片", "效率", "社媒", "信息设计"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-card-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为社媒与 UI 类输出样板。"
+        }
+      ]
     },
     {
       "id": "social-app-003",
@@ -286,7 +429,18 @@
       "negative_prompt": "按钮文字、界面乱码、卡片杂乱、过度装饰",
       "tags": ["App", "引导页", "阅读", "UI"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-app-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为社媒与 UI 类输出样板。"
+        }
+      ]
     },
     {
       "id": "social-live-004",
@@ -298,7 +452,18 @@
       "negative_prompt": "信息过满、廉价促销风、文字错误、背景杂乱",
       "tags": ["直播", "电商", "新品发布", "背景"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-live-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为社媒与 UI 类输出样板。"
+        }
+      ]
     },
     {
       "id": "architecture-bookstore-001",
@@ -333,7 +498,18 @@
       "negative_prompt": "科幻过度、文字乱码、拥挤人群、空间不合理",
       "tags": ["地铁站", "未来城市", "公共空间", "导视"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-metro-002.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为建筑与场景类输出样板。"
+        }
+      ]
     },
     {
       "id": "architecture-homestay-003",
@@ -345,7 +521,18 @@
       "negative_prompt": "过度广角、不合理空间、样板间过度摆拍、低清晰度",
       "tags": ["民宿", "室内", "自然", "平台图片"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-homestay-003.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为建筑与场景类输出样板。"
+        }
+      ]
     },
     {
       "id": "architecture-street-004",
@@ -357,7 +544,18 @@
       "negative_prompt": "过暗、过度赛博化、低清晰度、画面杂乱",
       "tags": ["街景", "电影感", "雨夜", "城市"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-street-004.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为建筑与场景类输出样板。"
+        }
+      ]
     }
   ]
 }
