@@ -28,7 +28,24 @@
 
 ## 数据格式
 
-如果你同时更新 `data/prompts.zh-CN.json`，请保持字段符合 [schema/prompt.schema.json](schema/prompt.schema.json)。
+如果你同时更新 `data/prompts.zh-CN.json`，请保持字段符合 [schema/prompt.schema.json](schema/prompt.schema.json)。生成结果图写入 `outputs` 字段，图片路径放在 `assets/cases/{category}/{prompt-id}.webp`。
+
+`outputs` 每项需要包含：
+
+- `type`：`generated` 或 `repost`。
+- `path`：仓库内图片路径。
+- `model`：生成或测试使用的模型。
+- `source_url`：生成图可留空；转载图必须填写原始 GitHub 链接。
+- `license`：生成图使用本项目许可；转载图必须填写兼容许可。
+- `attribution`：生成图可写项目名；转载图必须写原作者或原仓库。
+- `notes`：简短说明文字表现、可复用点或限制。
+
+## 图片贡献规范
+
+- 官方生成图统一使用 `.webp`，长边建议不超过 1600px。
+- 生成图不能包含第三方真实品牌、受版权保护角色、真实人物肖像或水印。
+- 含中文文字的图片需要人工检查可读性；文字明显错误的结果不作为样板图。
+- GitHub 转载图只接受明确允许再分发的兼容许可，并必须保留来源链接、许可和署名。
 
 提交前可以用 PowerShell 检查 JSON：
 

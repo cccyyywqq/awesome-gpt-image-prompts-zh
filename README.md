@@ -11,7 +11,7 @@
 - 用中文描述画面，不依赖英文提示词翻译。
 - 每条提示词尽量包含主体、场景、构图、风格、光线、材质、文字和限制条件。
 - 同时提供 Markdown 案例和 JSON 数据，方便阅读、检索和二次开发。
-- 欢迎贡献生成结果图、参数、模型版本和失败案例复盘。
+- 已开始收录官方生成结果图，欢迎贡献参数、模型版本和失败案例复盘。
 
 ## 适合谁
 
@@ -53,6 +53,19 @@
 | 社媒与 UI | 封面、信息卡片、App 引导页、直播背景 | [cases/social-ui.md](cases/social-ui.md) |
 | 建筑与场景 | 室内设计、展厅、城市空间、概念场景 | [cases/architecture-scene.md](cases/architecture-scene.md) |
 
+## 实图案例
+
+首批实图案例由 `gpt-image-2` 根据原始中文提示词生成，每个现有分类各 1 张。图片保存在 `assets/cases/`，并在 JSON 数据的 `outputs` 字段中记录模型、来源、许可和备注。
+
+| 分类 | 结果图 | 案例 |
+| --- | --- | --- |
+| 海报与插画 | <img src="assets/cases/poster-illustration/poster-guyu-001.webp" alt="国潮节气海报" width="160"> | [国潮节气海报](cases/poster-illustration.md#p001-国潮节气海报) |
+| 电商与产品广告 | <img src="assets/cases/ecommerce-product/ecommerce-skincare-001.webp" alt="护肤品电商主图" width="160"> | [护肤品电商主图](cases/ecommerce-product.md#e001-护肤品主图) |
+| 人像与摄影 | <img src="assets/cases/portrait-photography/portrait-business-001.webp" alt="职业头像" width="160"> | [职业头像](cases/portrait-photography.md#r001-职业头像) |
+| 角色与 IP | <img src="assets/cases/character-ip/character-milk-tea-001.webp" alt="奶茶品牌吉祥物" width="160"> | [奶茶品牌吉祥物](cases/character-ip.md#c001-奶茶品牌吉祥物) |
+| 社媒与 UI | <img src="assets/cases/social-ui/social-xhs-001.webp" alt="小红书封面" width="160"> | [小红书封面](cases/social-ui.md#s001-小红书封面) |
+| 建筑与场景 | <img src="assets/cases/architecture-scene/architecture-bookstore-001.webp" alt="新中式书店" width="160"> | [新中式书店](cases/architecture-scene.md#a001-新中式书店) |
+
 ## 精选案例
 
 ### 国潮节气海报
@@ -81,7 +94,7 @@
 
 ## 数据文件
 
-结构化数据位于 [data/prompts.zh-CN.json](data/prompts.zh-CN.json)，字段规范见 [schema/prompt.schema.json](schema/prompt.schema.json)。你可以基于它做搜索站点、CLI、浏览器插件或自动化评测。
+结构化数据位于 [data/prompts.zh-CN.json](data/prompts.zh-CN.json)，字段规范见 [schema/prompt.schema.json](schema/prompt.schema.json)。其中 `outputs` 字段用于记录生成图或转载图的路径、模型、来源、许可、署名和备注。你可以基于它做搜索站点、CLI、浏览器插件或自动化评测。
 
 ## 本地校验
 
@@ -90,12 +103,13 @@ npm run validate
 npm run stats
 ```
 
-校验会检查 JSON 可解析、字段完整、ID 唯一、分类有效、中文提示词存在和案例文件完整性。GitHub Actions 会在 push 和 pull request 时自动运行。
+校验会检查 JSON 可解析、字段完整、ID 唯一、分类有效、中文提示词存在、案例文件完整性和实图案例路径有效性。GitHub Actions 会在 push 和 pull request 时自动运行。
 
 ## 项目结构
 
 ```text
 .
+├── assets/                 # 生成结果图和未来兼容许可转载图
 ├── cases/                  # 按分类整理的 Markdown 案例
 ├── data/                   # 结构化提示词数据
 ├── docs/                   # 写作指南、质量清单和路线图
@@ -117,7 +131,7 @@ npm run stats
 
 - 新的中文提示词。
 - 同一提示词在不同模型中的表现对比。
-- 生成结果图和参数说明。
+- 生成结果图、参数说明和模型版本。
 - 失败提示词和修正过程。
 
 贡献前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。本项目使用 [MIT License](LICENSE) 发布。

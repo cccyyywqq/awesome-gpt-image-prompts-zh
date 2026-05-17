@@ -15,7 +15,18 @@
       "negative_prompt": "低清晰度、错误文字、廉价剪贴感、过度饱和、杂乱背景",
       "tags": ["国潮", "节气", "海报", "插画"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-guyu-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，中文标题和副标题可读，适合作为节气海报样板。"
+        }
+      ]
     },
     {
       "id": "poster-music-002",
@@ -63,7 +74,18 @@
       "negative_prompt": "产品形变、错误文字、装饰过多、廉价塑料感",
       "tags": ["护肤品", "电商", "主图", "棚拍"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-skincare-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，产品轮廓、玻璃材质和中文标签表现稳定。"
+        }
+      ]
     },
     {
       "id": "ecommerce-shoes-002",
@@ -111,7 +133,18 @@
       "negative_prompt": "夸张磨皮、杂乱背景、多余人物、脸部变形",
       "tags": ["头像", "职业照", "摄影", "办公室"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-business-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，头像构图、自然光和职业气质贴合提示词。"
+        }
+      ]
     },
     {
       "id": "portrait-magazine-002",
@@ -159,7 +192,18 @@
       "negative_prompt": "复杂纹理、生产困难、边缘不清、比例混乱",
       "tags": ["吉祥物", "奶茶", "三视图", "品牌"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-milk-tea-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，三视图轮廓清晰，适合展示品牌 IP 延展方向。"
+        }
+      ]
     },
     {
       "id": "character-xiake-002",
@@ -207,7 +251,18 @@
       "negative_prompt": "小字过多、装饰杂乱、文字错误、标题不清",
       "tags": ["小红书", "封面", "知识", "阅读"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-xhs-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，标题和副标题可读，符合知识型封面样板。"
+        }
+      ]
     },
     {
       "id": "social-card-002",
@@ -255,7 +310,18 @@
       "negative_prompt": "过度复古、拥挤陈列、空间不合理、低清晰度",
       "tags": ["书店", "室内设计", "新中式", "空间"],
       "variables": [],
-      "source": "original"
+      "source": "original",
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-bookstore-001.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "由 gpt-image-2 根据原提示词生成，空间动线、材质和新中式氛围清晰。"
+        }
+      ]
     },
     {
       "id": "architecture-metro-002",

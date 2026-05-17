@@ -27,6 +27,17 @@ const requiredPromptFields = [
   "source"
 ];
 
+const requiredOutputFields = [
+  "type",
+  "path",
+  "model",
+  "source_url",
+  "license",
+  "attribution",
+  "notes"
+];
+const allowedOutputFields = new Set(requiredOutputFields);
+
 function readJson(filePath) {
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -41,6 +52,10 @@ function assert(condition, message, errors) {
 
 function hasChinese(text) {
   return /[\u4e00-\u9fff]/.test(text);
+}
+
+function isNonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
 }
 
 function validate() {
@@ -83,6 +98,61 @@ function validate() {
     assert(Array.isArray(item.tags) && item.tags.length >= 2, `${label} should have at least 2 tags`, errors);
     assert(Array.isArray(item.variables), `${label} variables must be an array`, errors);
     assert(["original", "community"].includes(item.source), `${label} source must be original or community`, errors);
+
+    if (Object.prototype.hasOwnProperty.call(item, "outputs")) {
+      assert(Array.isArray(item.outputs), `${label} outputs must be an array`, errors);
+      assert(!Array.isArray(item.outputs) || item.outputs.length > 0, `${label} outputs must not be empty`, errors);
+
+      if (Array.isArray(item.outputs)) {
+        for (const [outputIndex, output] of item.outputs.entries()) {
+          const outputLabel = `${label}.outputs[${outputIndex}]`;
+
+          assert(output && typeof output === "object", `${outputLabel} must be an object`, errors);
+          if (!output || typeof output !== "object") continue;
+
+          for (const field of requiredOutputFields) {
+            assert(Object.prototype.hasOwnProperty.call(output, field), `${outputLabel} is missing field: ${field}`, errors);
+          }
+
+          for (const field of Object.keys(output)) {
+            assert(allowedOutputFields.has(field), `${outputLabel} has unknown field: ${field}`, errors);
+          }
+
+          assert(["generated", "repost"].includes(output.type), `${outputLabel} type must be generated or repost`, errors);
+          assert(typeof output.path === "string", `${outputLabel} path must be a string`, errors);
+          assert(typeof output.model === "string", `${outputLabel} model must be a string`, errors);
+          assert(typeof output.source_url === "string", `${outputLabel} source_url must be a string`, errors);
+          assert(typeof output.license === "string", `${outputLabel} license must be a string`, errors);
+          assert(typeof output.attribution === "string", `${outputLabel} attribution must be a string`, errors);
+          assert(typeof output.notes === "string", `${outputLabel} notes must be a string`, errors);
+          assert(isNonEmptyString(output.model), `${outputLabel} model must be non-empty`, errors);
+          assert(isNonEmptyString(output.license), `${outputLabel} license must be non-empty`, errors);
+          assert(isNonEmptyString(output.attribution), `${outputLabel} attribution must be non-empty`, errors);
+          assert(isNonEmptyString(output.notes), `${outputLabel} notes must be non-empty`, errors);
+
+          if (typeof output.path === "string") {
+            const expectedPath = `assets/cases/${item.category}/${item.id}.webp`;
+            const assetRoot = path.resolve(root, "assets", "cases");
+            const assetPath = path.resolve(root, output.path);
+            assert(output.path === expectedPath, `${outputLabel} path must be ${expectedPath}`, errors);
+            assert(!path.isAbsolute(output.path), `${outputLabel} path must be relative`, errors);
+            assert(assetPath.startsWith(`${assetRoot}${path.sep}`), `${outputLabel} path must stay under assets/cases`, errors);
+            assert(path.extname(assetPath) === ".webp", `${outputLabel} path must point to a .webp file`, errors);
+            assert(fs.existsSync(assetPath), `${outputLabel} file does not exist: ${output.path}`, errors);
+          }
+
+          if (output.type === "generated") {
+            assert(output.source_url === "", `${outputLabel} generated source_url must be empty`, errors);
+          }
+
+          if (output.type === "repost") {
+            assert(isNonEmptyString(output.source_url), `${outputLabel} repost source_url must be non-empty`, errors);
+            assert(isNonEmptyString(output.license), `${outputLabel} repost license must be non-empty`, errors);
+            assert(isNonEmptyString(output.attribution), `${outputLabel} repost attribution must be non-empty`, errors);
+          }
+        }
+      }
+    }
   }
 
   for (const category of allowedCategories) {

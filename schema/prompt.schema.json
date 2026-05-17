@@ -81,6 +81,47 @@
           "source": {
             "type": "string",
             "enum": ["original", "community"]
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "path",
+                "model",
+                "source_url",
+                "license",
+                "attribution",
+                "notes"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["generated", "repost"]
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^assets/cases/[a-z0-9-]+/[a-z0-9]+(?:-[a-z0-9]+)*-[0-9]{3}\\.webp$"
+                },
+                "model": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                },
+                "license": {
+                  "type": "string"
+                },
+                "attribution": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
           }
         },
         "additionalProperties": false
