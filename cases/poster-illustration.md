@@ -87,3 +87,18 @@
 - 来源：项目官方生成图（非转载）
 - 许可：MIT
 - 备注：信息分区清楚，可用于观察中文信息图文字稳定性。
+## P009 社区参考：文博器物图鉴海报
+
+```text
+用途：文博专题图鉴海报。请生成一张 3:4 竖版中文信息图，主题是「宋代青瓷莲瓣碗」。中央是一只写实质感的青瓷碗，釉色温润，边缘有莲瓣纹细节；左侧用引线标注「口沿」「莲瓣纹」「釉面」「圈足」，右侧展示釉色样本、纹样放大图和工艺说明。顶部标题为「宋代青瓷莲瓣碗」，副标题为「器物结构与釉色图鉴」。背景为米白宣纸质感，整体像博物馆展板，信息清楚、克制、可收藏。
+```
+
+**生成结果**
+
+![文博器物图鉴海报生成结果](../assets/cases/poster-illustration/poster-museum-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-25-museum-style-hanfu-breakdown-infographic)
+- 备注：参考 EvoLinkAI CC0 案例的“博物馆图鉴式中文拆解信息图”结构，改写为青瓷器物图鉴。

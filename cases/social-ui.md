@@ -88,3 +88,18 @@
 ```text
 请生成一张竖版社群活动海报，比例 9:16。主题是「周末共读会」，画面是几个人围坐在明亮的社区空间里阅读和讨论，桌上有书、便签和温暖灯光。标题「周末共读会」放在顶部，时间「每周六 15:00」放在底部。风格亲切、真实、有参与感，避免像商业广告。
 ```
+## S009 社区参考：阅读工具 UI 设计系统
+
+```text
+请生成一张 16:9 中文阅读工具 UI 设计系统展示图。画面包含网页首页、移动端阅读页、摘录卡片、按钮、标签、颜色系统和图标组，整体布局像设计系统总览板。产品主题是「栖读」，风格安静、现代、留白充足，主色为墨绿、米白和少量橙色。界面文字只保留「栖读」「书架」「摘录」「阅读进度」「今日阅读」。不要做营销落地页，要像真实产品设计稿。
+```
+
+**生成结果**
+
+![阅读工具 UI 设计系统生成结果](../assets/cases/social-ui/social-design-system-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-1-one-prompt-ui-design-generation)
+- 备注：参考 EvoLinkAI CC0 案例的“一句话 UI 设计系统”任务形式，改写为中文阅读工具设计系统。

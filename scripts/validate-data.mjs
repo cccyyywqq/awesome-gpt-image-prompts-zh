@@ -37,6 +37,8 @@ const requiredOutputFields = [
   "notes"
 ];
 const allowedOutputFields = new Set(requiredOutputFields);
+const requiredReferenceFields = ["project", "url", "license", "adaptation"];
+const allowedReferenceFields = new Set(requiredReferenceFields);
 
 function readJson(filePath) {
   try {
@@ -98,6 +100,29 @@ function validate() {
     assert(Array.isArray(item.tags) && item.tags.length >= 2, `${label} should have at least 2 tags`, errors);
     assert(Array.isArray(item.variables), `${label} variables must be an array`, errors);
     assert(["original", "community"].includes(item.source), `${label} source must be original or community`, errors);
+
+    if (item.source === "community") {
+      assert(item.reference && typeof item.reference === "object", `${label} community prompt must include reference`, errors);
+    }
+
+    if (Object.prototype.hasOwnProperty.call(item, "reference")) {
+      assert(item.reference && typeof item.reference === "object", `${label} reference must be an object`, errors);
+
+      if (item.reference && typeof item.reference === "object") {
+        for (const field of requiredReferenceFields) {
+          assert(Object.prototype.hasOwnProperty.call(item.reference, field), `${label}.reference is missing field: ${field}`, errors);
+        }
+
+        for (const field of Object.keys(item.reference)) {
+          assert(allowedReferenceFields.has(field), `${label}.reference has unknown field: ${field}`, errors);
+        }
+
+        assert(isNonEmptyString(item.reference.project), `${label}.reference project must be non-empty`, errors);
+        assert(isNonEmptyString(item.reference.url), `${label}.reference url must be non-empty`, errors);
+        assert(isNonEmptyString(item.reference.license), `${label}.reference license must be non-empty`, errors);
+        assert(isNonEmptyString(item.reference.adaptation), `${label}.reference adaptation must be non-empty`, errors);
+      }
+    }
 
     if (Object.prototype.hasOwnProperty.call(item, "outputs")) {
       assert(Array.isArray(item.outputs), `${label} outputs must be an array`, errors);

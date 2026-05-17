@@ -13,7 +13,12 @@
       "aspect_ratio": "3:4",
       "prompt": "请生成一张竖版节气海报，比例 3:4。主题是「谷雨」，画面中央是一位穿现代改良中式服装的年轻人，站在刚下过雨的茶园小径上；远处有薄雾、青山和浅色天空，近景有雨滴停留在茶叶上的细节。构图留白充足，标题「谷雨」使用端正的中文书法字形，副标题为「雨生百谷，万物向新」。整体风格为国潮插画与真实质感结合，色彩清透，避免过度饱和和廉价剪贴感。",
       "negative_prompt": "低清晰度、错误文字、廉价剪贴感、过度饱和、杂乱背景",
-      "tags": ["国潮", "节气", "海报", "插画"],
+      "tags": [
+        "国潮",
+        "节气",
+        "海报",
+        "插画"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -36,7 +41,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张横版活动主视觉，比例 16:9。主题是「夏夜城市音乐节」，画面是傍晚的城市天台舞台，远处有霓虹灯和高楼轮廓，舞台灯光从蓝紫色过渡到暖橙色，观众以剪影方式呈现。画面中间留出大标题「夏夜城市音乐节」，下方放日期「2026.07.18」。整体风格年轻、热烈、有节奏感，但文字必须清楚，不要拥挤。",
       "negative_prompt": "错误文字、画面拥挤、低清晰度、过度炫光",
-      "tags": ["活动", "音乐节", "主视觉", "城市"],
+      "tags": [
+        "活动",
+        "音乐节",
+        "主视觉",
+        "城市"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -59,7 +69,12 @@
       "aspect_ratio": "2:3",
       "prompt": "请生成一张中文小说封面，比例 2:3。书名为「风从旧街来」，画面是一条雨后的老街，青石路面反射暖色灯光，远处有一个撑伞的人影，近处是微微打开的木门和旧招牌。标题放在上方三分之一处，字体优雅、清晰，作者名「林见川」放在底部。整体氛围温柔、悬念感轻微，像文学小说封面，不要恐怖风，不要过度装饰。",
       "negative_prompt": "恐怖风、文字错误、过度装饰、低清晰度",
-      "tags": ["书封", "文学", "插画", "雨夜"],
+      "tags": [
+        "书封",
+        "文学",
+        "插画",
+        "雨夜"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -82,7 +97,12 @@
       "aspect_ratio": "9:16",
       "prompt": "请生成一张竖版中文信息图海报，比例 9:16。主题是「一杯奶茶的糖分」，整体采用清晰的信息分区：顶部大标题，中间用三组透明杯子展示少糖、正常糖、全糖的对比，底部是简洁建议。颜色使用奶白、浅棕、薄荷绿，图标线条统一，中文文字清晰可读。避免复杂背景、过多小字和错误数字。",
       "negative_prompt": "错误数字、小字过多、复杂背景、图标风格不统一",
-      "tags": ["信息图", "健康", "社媒", "中文排版"],
+      "tags": [
+        "信息图",
+        "健康",
+        "社媒",
+        "中文排版"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -105,7 +125,12 @@
       "aspect_ratio": "1:1",
       "prompt": "请生成一张 1:1 电商主图。主体是一瓶半透明玻璃精华液，瓶身标签文字为「清透修护精华」，放在湿润的白色岩石台面上；周围有少量水珠、透明凝胶质感和浅绿色植物投影。背景干净，产品占画面 65%，正面朝向镜头，瓶身边缘有高级棚拍高光。整体要真实、清爽、专业，避免过多装饰、错误文字和产品形变。",
       "negative_prompt": "产品形变、错误文字、装饰过多、廉价塑料感",
-      "tags": ["护肤品", "电商", "主图", "棚拍"],
+      "tags": [
+        "护肤品",
+        "电商",
+        "主图",
+        "棚拍"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -128,7 +153,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张横版产品广告图，比例 16:9。主体是一双白色跑鞋，鞋面有轻量织物纹理和银色反光细节，悬浮在浅灰色跑道上方；背景有微弱速度线和柔和阴影。左侧留出文案「轻盈回弹，每一步都更快」，右侧展示鞋子 45 度角。风格真实、科技、干净，避免夸张火焰和卡通感。",
       "negative_prompt": "夸张火焰、卡通感、产品变形、错误文字",
-      "tags": ["运动鞋", "产品广告", "电商", "科技感"],
+      "tags": [
+        "运动鞋",
+        "产品广告",
+        "电商",
+        "科技感"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -151,7 +181,12 @@
       "aspect_ratio": "4:5",
       "prompt": "请生成一张 4:5 国风茶叶礼盒广告图。主体是深绿色硬盒包装，盒面有金色细线山水纹样和文字「云岭春茶」；礼盒半开，露出小罐茶叶包装。背景是浅米色宣纸质感，旁边有茶杯、少量茶叶和柔和窗影。整体高级、安静、有东方审美，避免俗气金光和复杂边框。",
       "negative_prompt": "俗气金光、复杂边框、文字错误、产品形变",
-      "tags": ["茶叶", "礼盒", "国风", "包装"],
+      "tags": [
+        "茶叶",
+        "礼盒",
+        "国风",
+        "包装"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -174,7 +209,12 @@
       "aspect_ratio": "1:1",
       "prompt": "请生成一张 1:1 科技产品广告图。主体是一块黑色智能手表，屏幕显示运动数据圆环、心率和时间，表带为哑光硅胶材质；产品悬浮在深灰到银色渐变背景前，边缘有冷色轮廓光。画面右下角留出文字「全天候健康管理」。整体精密、现代、可信，不要出现无法识别的界面乱码。",
       "negative_prompt": "界面乱码、产品变形、过度炫光、廉价塑料感",
-      "tags": ["智能手表", "科技", "广告", "健康"],
+      "tags": [
+        "智能手表",
+        "科技",
+        "广告",
+        "健康"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -197,7 +237,12 @@
       "aspect_ratio": "4:5",
       "prompt": "请生成一张 4:5 职业头像摄影作品。人物为 30 岁左右的中文互联网产品经理，穿深灰西装外套和白色衬衫，自然微笑，看向镜头；背景是虚化的现代办公室，窗边有柔和自然光。构图为胸像，眼神清晰，肤色自然，整体气质可信、亲和、专业。不要夸张磨皮，不要杂乱背景，不要出现多余人物。",
       "negative_prompt": "夸张磨皮、杂乱背景、多余人物、脸部变形",
-      "tags": ["头像", "职业照", "摄影", "办公室"],
+      "tags": [
+        "头像",
+        "职业照",
+        "摄影",
+        "办公室"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -220,7 +265,12 @@
       "aspect_ratio": "3:4",
       "prompt": "请生成一张竖版杂志封面人像，比例 3:4。人物是一位 35 岁左右的中文独立设计师，穿黑色立领外套，站在极简白色摄影棚中；姿态放松但有力量，视线略偏向镜头。光线为大面积柔光加一束侧逆光，突出面部轮廓和服装质感。顶部留出刊名「视界」，底部留出封面标题「设计是一种清醒」。整体高级、克制、真实。",
       "negative_prompt": "过度磨皮、错误文字、廉价影楼感、背景杂乱",
-      "tags": ["杂志", "人像", "设计师", "摄影棚"],
+      "tags": [
+        "杂志",
+        "人像",
+        "设计师",
+        "摄影棚"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -243,7 +293,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张横版街头人像摄影，比例 16:9。人物穿深色风衣，站在雨后城市街角，身后有虚化的霓虹招牌和车灯反光；人物侧脸被冷色霓虹和暖色路灯共同照亮。镜头为 50mm，背景虚化自然，画面有电影感。避免脸部变形、过暗和低清晰度。",
       "negative_prompt": "脸部变形、过暗、低清晰度、霓虹过度",
-      "tags": ["街头", "人像", "电影感", "夜景"],
+      "tags": [
+        "街头",
+        "人像",
+        "电影感",
+        "夜景"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -266,7 +321,12 @@
       "aspect_ratio": "4:5",
       "prompt": "请生成一张 4:5 生活方式摄影。人物坐在明亮厨房的木桌旁，正在写早晨计划，旁边有咖啡杯、笔记本电脑和简单早餐；窗外光线柔和，室内干净但不刻意摆拍。整体氛围自律、温暖、真实，人物表情自然。避免广告硬照感和过度滤镜。",
       "negative_prompt": "广告硬照感、过度滤镜、杂乱桌面、表情僵硬",
-      "tags": ["生活方式", "摄影", "早餐", "自律"],
+      "tags": [
+        "生活方式",
+        "摄影",
+        "早餐",
+        "自律"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -289,7 +349,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一个奶茶品牌吉祥物的三视图，比例 16:9。角色是圆润的杯形小精灵，头部像透明奶茶杯，身体穿浅黄色围裙，表情亲切，手里拿着吸管形状的小旗。展示正面、侧面、背面三个角度，白色背景，边缘线干净，适合后续做贴纸和周边。风格可爱但不幼稚，避免复杂纹理和难以生产的细节。",
       "negative_prompt": "复杂纹理、生产困难、边缘不清、比例混乱",
-      "tags": ["吉祥物", "奶茶", "三视图", "品牌"],
+      "tags": [
+        "吉祥物",
+        "奶茶",
+        "三视图",
+        "品牌"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -312,7 +377,12 @@
       "aspect_ratio": "2:3",
       "prompt": "请生成一张 2:3 游戏角色设定图。角色是一位年轻国风侠客，穿深青色短打与轻量皮甲，腰间有简洁剑鞘，衣摆有云纹刺绣；站姿稳重，神情冷静。背景为浅色宣纸纹理，旁边展示武器和配饰小图。风格为现代游戏美术与传统元素结合，轮廓清晰，避免过度复杂和脸部同质化。",
       "negative_prompt": "过度复杂、脸部同质化、武器变形、低清晰度",
-      "tags": ["国风", "角色设定", "游戏", "侠客"],
+      "tags": [
+        "国风",
+        "角色设定",
+        "游戏",
+        "侠客"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -335,7 +405,12 @@
       "aspect_ratio": "4:3",
       "prompt": "请生成一组教育 App 引导角色，比例 4:3。角色是一个友好的学习助手机器人，圆形屏幕脸，表情有微笑、思考、鼓励三种状态；身体小巧，配色为白色、天蓝和少量橙色。白色背景，展示三个动作：打招呼、拿书、指向黑板。风格简洁、扁平、适合移动端 UI，避免过多阴影和复杂机械结构。",
       "negative_prompt": "复杂机械结构、阴影过多、表情不可读、风格不统一",
-      "tags": ["教育", "App", "机器人", "引导页"],
+      "tags": [
+        "教育",
+        "App",
+        "机器人",
+        "引导页"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -358,7 +433,12 @@
       "aspect_ratio": "1:1",
       "prompt": "请生成一组 3x3 中文表情包贴纸。角色是一个圆脸上班族形象，穿蓝色卫衣和白色运动鞋；九个表情分别是：收到、加油、已读、开会中、马上来、太难了、赞、休息一下、下班。白色或透明背景，线条清晰，文字简短可读。风格轻松、适合聊天软件，避免小字和复杂阴影。",
       "negative_prompt": "小字、复杂阴影、错误文字、表情重复",
-      "tags": ["表情包", "贴纸", "中文", "上班族"],
+      "tags": [
+        "表情包",
+        "贴纸",
+        "中文",
+        "上班族"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -381,7 +461,12 @@
       "aspect_ratio": "3:4",
       "prompt": "请生成一张小红书封面图，比例 3:4。主题是「3 个方法整理电子书库」，背景是整洁的书桌，上面有平板、电子阅读器、笔记本和一杯咖啡；画面中央放大标题「整理电子书库」，下方小标题「3 个方法」。风格清爽、有知识感，字体粗细对比明显，避免过多小字和杂乱装饰。",
       "negative_prompt": "小字过多、装饰杂乱、文字错误、标题不清",
-      "tags": ["小红书", "封面", "知识", "阅读"],
+      "tags": [
+        "小红书",
+        "封面",
+        "知识",
+        "阅读"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -404,7 +489,12 @@
       "aspect_ratio": "1:1",
       "prompt": "请生成一张 1:1 知识卡片。主题是「番茄工作法」，版面分为三块：25 分钟专注、5 分钟休息、4 轮后长休息；每块配简洁线性图标。主色为白色和清新的红色点缀，整体像高质量中文效率工具卡片。文字必须清晰，不要出现英文乱码，不要背景过花。",
       "negative_prompt": "英文乱码、背景过花、错误数字、图标不统一",
-      "tags": ["知识卡片", "效率", "社媒", "信息设计"],
+      "tags": [
+        "知识卡片",
+        "效率",
+        "社媒",
+        "信息设计"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -427,7 +517,12 @@
       "aspect_ratio": "9:16",
       "prompt": "请生成一张移动 App 引导页视觉，比例 9:16。产品是个人阅读管理 App，画面中央是一部手机界面，界面展示书架、阅读进度和摘录卡片；背景有柔和纸张纹理和漂浮的简洁卡片。顶部文案「把每一次阅读都留下来」，底部保留按钮区域但不要写按钮文字。风格现代、安静、可信，适合中文工具产品。",
       "negative_prompt": "按钮文字、界面乱码、卡片杂乱、过度装饰",
-      "tags": ["App", "引导页", "阅读", "UI"],
+      "tags": [
+        "App",
+        "引导页",
+        "阅读",
+        "UI"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -450,7 +545,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张横版直播间背景，比例 16:9。主题是「新品发布直播」，背景为简洁的品牌展示墙，中间有产品展示台，两侧有柔和灯带和少量植物。主标题区域写「新品发布」，下方预留价格和卖点区域。整体干净、明亮、电商专业，避免信息过满和廉价促销风。",
       "negative_prompt": "信息过满、廉价促销风、文字错误、背景杂乱",
-      "tags": ["直播", "电商", "新品发布", "背景"],
+      "tags": [
+        "直播",
+        "电商",
+        "新品发布",
+        "背景"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -473,7 +573,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张横版室内设计效果图，比例 16:9。空间是一家新中式独立书店，入口处有木质书架、浅色石材地面、纸灯和阅读长桌；墙面局部使用竹编纹理，天花有柔和线性灯。镜头高度约 1.5 米，视角从入口看向深处，空间通透但安静。整体真实、高级、有文化气息，避免过度复古和拥挤陈列。",
       "negative_prompt": "过度复古、拥挤陈列、空间不合理、低清晰度",
-      "tags": ["书店", "室内设计", "新中式", "空间"],
+      "tags": [
+        "书店",
+        "室内设计",
+        "新中式",
+        "空间"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -496,7 +601,12 @@
       "aspect_ratio": "16:9",
       "prompt": "请生成一张 16:9 未来城市地铁站概念图。站台宽敞，地面为深灰石材，墙面有柔和发光导视线，列车停靠在右侧；乘客数量少，整体秩序清晰。导视牌包含中文「中央公园站」。光线为冷白与浅蓝结合，风格真实、干净、具有公共交通设计感，避免科幻过度和文字乱码。",
       "negative_prompt": "科幻过度、文字乱码、拥挤人群、空间不合理",
-      "tags": ["地铁站", "未来城市", "公共空间", "导视"],
+      "tags": [
+        "地铁站",
+        "未来城市",
+        "公共空间",
+        "导视"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -519,7 +629,12 @@
       "aspect_ratio": "4:3",
       "prompt": "请生成一张 4:3 民宿房间室内图。房间有大窗、白色床品、原木家具、藤编椅和浅色墙面；窗外能看到山景和清晨雾气。床边有暖色小灯，桌上放一本打开的书。整体风格自然、放松、真实，像可直接用于民宿平台的照片，避免过度广角和不合理空间。",
       "negative_prompt": "过度广角、不合理空间、样板间过度摆拍、低清晰度",
-      "tags": ["民宿", "室内", "自然", "平台图片"],
+      "tags": [
+        "民宿",
+        "室内",
+        "自然",
+        "平台图片"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -542,7 +657,12 @@
       "aspect_ratio": "21:9",
       "prompt": "请生成一张横版电影感场景图，比例 21:9。画面是一条雨后的城市街道，路面反射招牌灯光，远处有公交站和行人剪影；近景是湿润斑马线和路边便利店。光线为冷暖混合，空气中有轻微水汽。整体真实、有叙事感，避免过暗和过度赛博化。",
       "negative_prompt": "过暗、过度赛博化、低清晰度、画面杂乱",
-      "tags": ["街景", "电影感", "雨夜", "城市"],
+      "tags": [
+        "街景",
+        "电影感",
+        "雨夜",
+        "城市"
+      ],
       "variables": [],
       "source": "original",
       "outputs": [
@@ -554,6 +674,210 @@
           "license": "MIT",
           "attribution": "awesome-gpt-image-prompts-zh",
           "notes": "由 gpt-image-2 根据优化后的生产级提示词生成，适合作为建筑与场景类输出样板。"
+        }
+      ]
+    },
+    {
+      "id": "poster-museum-005",
+      "title": "文博器物图鉴海报",
+      "category": "poster-illustration",
+      "use_case": "文博信息图",
+      "aspect_ratio": "3:4",
+      "prompt": "用途：文博专题图鉴海报。请生成一张 3:4 竖版中文信息图，主题是「宋代青瓷莲瓣碗」。中央是一只写实质感的青瓷碗，釉色温润，边缘有莲瓣纹细节；左侧用引线标注「口沿」「莲瓣纹」「釉面」「圈足」，右侧展示釉色样本、纹样放大图和工艺说明。顶部标题为「宋代青瓷莲瓣碗」，副标题为「器物结构与釉色图鉴」。背景为米白宣纸质感，整体像博物馆展板，信息清楚、克制、可收藏。",
+      "negative_prompt": "文字乱码、错别字、标注混乱、器物结构错误、过度装饰、动漫感、影楼感、英文、真实博物馆 logo",
+      "tags": [
+        "文博",
+        "信息图",
+        "器物",
+        "图鉴"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-25-museum-style-hanfu-breakdown-infographic",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“博物馆图鉴式中文拆解信息图”的提示词结构，改写为中文青瓷器物图鉴海报。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-museum-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 案例结构改写后使用 gpt-image-2 生成，展示文博图鉴式中文信息图。"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-banner-005",
+      "title": "四宫格电商广告矩阵",
+      "category": "ecommerce-product",
+      "use_case": "多品类广告矩阵",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 的 2x2 电商广告 Banner 矩阵，四个象限分别展示：旅行保温杯、清爽护手霜、黑芝麻能量棒、线上阅读课程。每个象限都有独立产品主视觉、简短中文标题、价格或卖点区域和小图标。整体像电商投放素材合集，版式整齐，四块风格统一但颜色有区分，文字只保留「轻装出发」「柔润双手」「低糖高纤」「每天读 30 分钟」。画面清楚、商业化、适合投放预览。",
+      "negative_prompt": "文字过多、乱码、真实品牌、真实平台标识、促销信息拥挤、产品变形、廉价拼贴感、英文",
+      "tags": [
+        "电商",
+        "广告矩阵",
+        "Banner",
+        "多品类"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ad-creative.md#case-90-4-panel-japanese-digital-ad-banner-grid",
+        "license": "CC0-1.0",
+        "adaptation": "参考其 2x2 digital advertisement banners 的 JSON 化版式，改写为中文电商多品类广告矩阵。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-banner-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 四宫格广告矩阵案例改写后使用 gpt-image-2 生成，展示多品类电商投放素材。"
+        }
+      ]
+    },
+    {
+      "id": "portrait-profile-005",
+      "title": "创作者介绍页人像",
+      "category": "portrait-photography",
+      "use_case": "人物介绍页",
+      "aspect_ratio": "4:5",
+      "prompt": "请生成一张 4:5 创作者介绍页人像视觉。人物是一位 28 岁左右的中文独立摄影师，穿浅灰衬衫和深色马甲，站在明亮工作室中，身后有相机、照片墙和柔和窗光。画面右侧保留资料卡区域，包含头像旁的简短标题「独立摄影师」，三条信息标签「纪实」「城市」「自然光」。整体像高质量个人网站 About 页面主视觉，真实、干净、有专业气质。",
+      "negative_prompt": "脸部变形、过度磨皮、真实名人、杂乱背景、文字乱码、过多小字、廉价模板感、平台 logo",
+      "tags": [
+        "人像",
+        "介绍页",
+        "创作者",
+        "摄影"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-3-gal-game-character-introduction-page",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“角色介绍页面”的信息层级和页面化构图，改写为真实中文创作者介绍页人像。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-profile-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 角色介绍页面案例改写后使用 gpt-image-2 生成，展示真实创作者介绍页人像。"
+        }
+      ]
+    },
+    {
+      "id": "character-sheet-005",
+      "title": "原创角色官方设定卡",
+      "category": "character-ip",
+      "use_case": "角色设定卡",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 原创角色官方设定卡。角色是一位城市图书馆引导员，穿米白风衣、深绿色围巾，手持小型电子导览器，气质温和聪明。画面包含正面、侧面、背面三视图，右侧有 4 个表情变化，底部展示服装细节、配色板和道具拆解。白色背景，版式清楚，专业概念艺术风格，中文标签只保留「正面」「侧面」「背面」「表情」「配色」「道具」。",
+      "negative_prompt": "版权角色、真实品牌、比例混乱、脸部重复、细节过碎、标签乱码、背景复杂、低清晰度",
+      "tags": [
+        "角色设定",
+        "三视图",
+        "设定卡",
+        "原创 IP"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-2-persona5-character-reference-card",
+        "license": "CC0-1.0",
+        "adaptation": "参考其角色资料卡的三视图、表情、装备拆解和色板结构，改写为无版权风险的原创中文角色设定卡。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-sheet-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 角色设定资料卡案例改写后使用 gpt-image-2 生成，展示原创角色三视图与设定拆解。"
+        }
+      ]
+    },
+    {
+      "id": "social-design-system-005",
+      "title": "阅读工具 UI 设计系统",
+      "category": "social-ui",
+      "use_case": "UI 设计系统展示",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 中文阅读工具 UI 设计系统展示图。画面包含网页首页、移动端阅读页、摘录卡片、按钮、标签、颜色系统和图标组，整体布局像设计系统总览板。产品主题是「栖读」，风格安静、现代、留白充足，主色为墨绿、米白和少量橙色。界面文字只保留「栖读」「书架」「摘录」「阅读进度」「今日阅读」。不要做营销落地页，要像真实产品设计稿。",
+      "negative_prompt": "乱码、真实 App 标识、英文占位符、按钮拥挤、界面杂乱、过度渐变、伪 3D、不可读小字",
+      "tags": [
+        "UI",
+        "设计系统",
+        "阅读工具",
+        "产品设计"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-1-one-prompt-ui-design-generation",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“一句话生成 UI 设计系统”的任务形式，改写为中文阅读工具产品设计系统展示。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-design-system-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 UI 设计系统案例改写后使用 gpt-image-2 生成，展示中文阅读工具设计系统。"
+        }
+      ]
+    },
+    {
+      "id": "architecture-seacity-005",
+      "title": "废弃海上城市场景",
+      "category": "architecture-scene",
+      "use_case": "电影场景概念",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 电影感场景概念图。画面是一座废弃海上城市，傍晚海雾中有巨大的白色混凝土塔、锈蚀钢结构平台、倾斜的环形构筑物和被海水半淹没的旧码头。前景是湿润金属栏杆和破损警示灯，中景有狭窄步道通向远处建筑，远景高塔上有零星暖色灯光。光线为冷青色海雾与远处暖橙背光结合，真实、宏大、有叙事感。",
+      "negative_prompt": "过度赛博朋克、空间不合理、人物抢戏、低清晰度、画面过暗、真实地标、品牌标识、水印",
+      "tags": [
+        "海上城市",
+        "电影场景",
+        "概念图",
+        "建筑"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-7-mecha-girl-sea-city-key-visual",
+        "license": "CC0-1.0",
+        "adaptation": "参考其废弃 sea-city、雾气、冷暖光和电影感构图语言，去除角色主体后改写为建筑场景概念图。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-seacity-005.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 海上城市场景语言改写后使用 gpt-image-2 生成，展示废弃海上城市场景概念。"
         }
       ]
     }

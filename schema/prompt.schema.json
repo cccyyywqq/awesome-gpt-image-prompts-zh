@@ -82,6 +82,25 @@
             "type": "string",
             "enum": ["original", "community"]
           },
+          "reference": {
+            "type": "object",
+            "required": ["project", "url", "license", "adaptation"],
+            "properties": {
+              "project": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "license": {
+                "type": "string"
+              },
+              "adaptation": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
           "outputs": {
             "type": "array",
             "items": {

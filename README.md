@@ -55,7 +55,7 @@
 
 ## 实图案例
 
-当前结构化 JSON 中的 24 条案例均已配套 `gpt-image-2` 生成结果图。图片保存在 `assets/cases/`，并在 JSON 数据的 `outputs` 字段中记录模型、来源、许可和备注。下表展示每个分类的代表案例，更多结果图见各分类案例页。
+当前结构化 JSON 中的 30 条案例均已配套 `gpt-image-2` 生成结果图，其中包含 6 条参考 CC0 社区项目改写的案例。图片保存在 `assets/cases/`，并在 JSON 数据的 `outputs` 字段中记录模型、来源、许可和备注；社区改写案例另在 `reference` 字段记录原项目、链接、许可和改写说明。下表展示每个分类的代表案例，更多结果图见各分类案例页。
 
 | 分类 | 结果图 | 案例 |
 | --- | --- | --- |
@@ -94,7 +94,7 @@
 
 ## 数据文件
 
-结构化数据位于 [data/prompts.zh-CN.json](data/prompts.zh-CN.json)，字段规范见 [schema/prompt.schema.json](schema/prompt.schema.json)。其中 `outputs` 字段用于记录生成图或转载图的路径、模型、来源、许可、署名和备注。你可以基于它做搜索站点、CLI、浏览器插件或自动化评测。
+结构化数据位于 [data/prompts.zh-CN.json](data/prompts.zh-CN.json)，字段规范见 [schema/prompt.schema.json](schema/prompt.schema.json)。其中 `outputs` 字段用于记录生成图或转载图的路径、模型、来源、许可、署名和备注；`reference` 字段用于记录社区提示词参考来源。你可以基于它做搜索站点、CLI、浏览器插件或自动化评测。
 
 ## 本地校验
 

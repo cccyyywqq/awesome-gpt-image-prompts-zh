@@ -88,3 +88,18 @@
 ```text
 请生成一张 16:9 社区花店外立面效果图。店面位于安静街角，白色门头写「慢慢花房」，橱窗里有丰富但整齐的花束，门口摆放小木架和手写小黑板。光线是下午柔和阳光，街道干净，有生活气。整体真实、亲切、适合小店品牌视觉，避免过度童话化。
 ```
+## A009 社区参考：废弃海上城市场景
+
+```text
+请生成一张 16:9 电影感场景概念图。画面是一座废弃海上城市，傍晚海雾中有巨大的白色混凝土塔、锈蚀钢结构平台、倾斜的环形构筑物和被海水半淹没的旧码头。前景是湿润金属栏杆和破损警示灯，中景有狭窄步道通向远处建筑，远景高塔上有零星暖色灯光。光线为冷青色海雾与远处暖橙背光结合，真实、宏大、有叙事感。
+```
+
+**生成结果**
+
+![废弃海上城市场景生成结果](../assets/cases/architecture-scene/architecture-seacity-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-7-mecha-girl-sea-city-key-visual)
+- 备注：参考 EvoLinkAI CC0 案例的 sea-city、雾气和冷暖光场景语言，去除角色主体后改写为建筑概念图。

@@ -88,3 +88,18 @@
 ```text
 请生成一张 4:5 婚礼纪实摄影。人物穿简洁白色婚纱，站在窗边整理头纱，阳光透过白纱形成柔和高光；背景是干净的准备间，有花束和浅色墙面。构图自然，表情放松，细节真实。整体浪漫、安静、不浮夸，避免塑料皮肤和过度曝光。
 ```
+## R009 社区参考：创作者介绍页人像
+
+```text
+请生成一张 4:5 创作者介绍页人像视觉。人物是一位 28 岁左右的中文独立摄影师，穿浅灰衬衫和深色马甲，站在明亮工作室中，身后有相机、照片墙和柔和窗光。画面右侧保留资料卡区域，包含头像旁的简短标题「独立摄影师」，三条信息标签「纪实」「城市」「自然光」。整体像高质量个人网站 About 页面主视觉，真实、干净、有专业气质。
+```
+
+**生成结果**
+
+![创作者介绍页人像生成结果](../assets/cases/portrait-photography/portrait-profile-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-3-gal-game-character-introduction-page)
+- 备注：参考 EvoLinkAI CC0 案例的角色介绍页信息层级，改写为真实中文创作者 About 页面人像。

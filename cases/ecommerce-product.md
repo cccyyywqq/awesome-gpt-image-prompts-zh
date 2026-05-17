@@ -88,3 +88,18 @@
 ```text
 请生成一张 16:9 高端耳机广告图。主体是一副深蓝色头戴式降噪耳机，耳罩为柔软皮革，金属转轴有细腻高光；耳机悬浮在安静的深色背景中，周围用抽象声波线条表现降噪空间。标题文字「沉浸，只听见重要的声音」放在左侧。整体奢华、克制、科技感强，避免杂乱光效和廉价塑料质感。
 ```
+## E009 社区参考：四宫格电商广告矩阵
+
+```text
+请生成一张 16:9 的 2x2 电商广告 Banner 矩阵，四个象限分别展示：旅行保温杯、清爽护手霜、黑芝麻能量棒、线上阅读课程。每个象限都有独立产品主视觉、简短中文标题、价格或卖点区域和小图标。整体像电商投放素材合集，版式整齐，四块风格统一但颜色有区分，文字只保留「轻装出发」「柔润双手」「低糖高纤」「每天读 30 分钟」。画面清楚、商业化、适合投放预览。
+```
+
+**生成结果**
+
+![四宫格电商广告矩阵生成结果](../assets/cases/ecommerce-product/ecommerce-banner-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ad-creative.md#case-90-4-panel-japanese-digital-ad-banner-grid)
+- 备注：参考 EvoLinkAI CC0 案例的 2x2 广告 Banner 矩阵结构，改写为中文多品类电商投放素材。

@@ -88,3 +88,18 @@
 ```text
 请生成一张横版冒险队伍角色设定图，比例 16:9。画面包含四位角色：导航员、工程师、医生、记录员，每个人有不同服装轮廓和工具；他们站在同一条地平线上，背景为浅色概念稿纸。整体风格为半写实动画设定，强调团队差异和可识别剪影，避免角色面孔重复。
 ```
+## C009 社区参考：原创角色官方设定卡
+
+```text
+请生成一张 16:9 原创角色官方设定卡。角色是一位城市图书馆引导员，穿米白风衣、深绿色围巾，手持小型电子导览器，气质温和聪明。画面包含正面、侧面、背面三视图，右侧有 4 个表情变化，底部展示服装细节、配色板和道具拆解。白色背景，版式清楚，专业概念艺术风格，中文标签只保留「正面」「侧面」「背面」「表情」「配色」「道具」。
+```
+
+**生成结果**
+
+![原创角色官方设定卡生成结果](../assets/cases/character-ip/character-sheet-005.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-2-persona5-character-reference-card)
+- 备注：参考 EvoLinkAI CC0 案例的角色资料卡结构，改写为无版权角色的中文三视图设定卡。
