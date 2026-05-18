@@ -119,3 +119,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-4-song-dynasty-social-media-feed)
 - 备注：参考 EvoLinkAI CC0 案例的“宋朝社交媒体界面”古今融合构思，改写为原创用户和原创内容；整体界面成立，部分小号中文需人工复核。
+
+## S011 社区参考：多平台内容截图矩阵
+
+```text
+请生成一张 16:9 多平台内容截图矩阵 mockup，画面中并排展示 4 张原创手机内容截图，不使用任何真实平台 logo。四张截图主题分别是：社区菜谱短视频「五分钟早餐」、知识卡片「如何整理书桌」、活动预告「周末共读会」、直播预告「新品开箱」。每张截图都有独立顶部状态栏、标题区、主图、互动图标和评论预览，界面风格统一但配色有区分。整体像内容运营汇报中的素材预览页，中文标题清楚，信息不要过密。
+```
+
+**生成结果**
+
+![多平台内容截图矩阵生成结果](../assets/cases/social-ui/social-multiplatform-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-5-multi-platform-content-screenshots)
+- 备注：参考 EvoLinkAI CC0 案例的多平台内容截图并列展示形式，改写为无真实平台标识的原创内容运营 mockup；小号评论文字需人工复核。

@@ -118,3 +118,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-33-calligraphy-copybook-sheet)
 - 备注：参考 EvoLinkAI CC0 案例的书法临摹字帖任务形式，改写为中文楷书练习页；主标题和大字可读，小号笔画说明仍需人工复核。
+
+## P011 社区参考：城市早餐手绘地图
+
+```text
+请生成一张 1:1 手绘风格城市早餐地图，主题是「老城早餐散步图」。画面以鸟瞰视角呈现一片原创老城区街巷，地图不追求真实比例，但道路、河道、小桥和街角摊位要清楚。地图上分布 10 个早餐小插画：豆浆油条、鲜肉包、肠粉、热干面、煎饼、粥铺、糯米饭团、烧饼、茶叶蛋、糖水铺，每个点旁有短中文标签。左上角标题「老城早餐散步图」，右下角有图例和指南针。风格为水彩和彩铅混合，温暖、可爱、信息清楚。
+```
+
+**生成结果**
+
+![城市早餐手绘地图生成结果](../assets/cases/poster-illustration/poster-food-map-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-3-chengdu-food-map-illustration)
+- 备注：参考 EvoLinkAI CC0 案例的城市美食地图鸟瞰手绘结构，改写为不指向真实城市和真实店名的原创早餐散步地图。

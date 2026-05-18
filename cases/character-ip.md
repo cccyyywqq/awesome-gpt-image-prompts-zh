@@ -119,3 +119,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-10-anime-martial-arts-battle-illustration)
 - 备注：参考 EvoLinkAI CC0 案例的双人武术对战、低角度和能量效果结构，改写为原创国风动作插画。
+
+## C011 社区参考：手写符号拼贴角色头像
+
+```text
+请生成一张 4:5 实验角色视觉海报。画面是一张米白纸，上面布满黑色手写符号、箭头、中文短词、草图线条和少量红色批注，所有笔迹看似散乱，但通过疏密和留白自然形成一位原创「城市观察员」角色的半侧脸轮廓。角色脸部不能直接画成写实肖像，而是由笔记、线条、墨点和纸面留白隐约浮现。整体为黑白加红色点缀，纸张和墨水质感明显，像艺术家草稿和角色概念海报结合。
+```
+
+**生成结果**
+
+![手写符号拼贴角色头像生成结果](../assets/cases/character-ip/character-ink-collage-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-9-chaos-notes-hidden-face-character-art)
+- 备注：参考 EvoLinkAI CC0 案例的混沌手写符号中浮现角色面孔的视觉机制，改写为原创城市观察员实验角色海报。

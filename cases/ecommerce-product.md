@@ -119,3 +119,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-34-don-quijote-promo-pop-poster)
 - 备注：参考 EvoLinkAI CC0 案例的卖场 POP 风格方向，去除真实品牌后改写为原创小家电促销牌。
+
+## E011 社区参考：谷物粉电商详情板
+
+```text
+请生成一张 9:16 中文电商详情页主视觉板，产品是原创品牌「谷研社」黑芝麻核桃谷物粉。画面顶部是黑金色包装盒和 5 袋独立小包装，旁边有一杯冲泡好的灰褐色谷物饮。中部展示黑芝麻、核桃、黑豆、黑米、燕麦 5 个圆形食材特写，并用简短中文标签标注。下方分区展示「冲泡三步」：倒入一袋、加入热水、搅拌均匀；底部展示早餐、办公室、健身后三个饮用场景。整体为高级健康食品广告，黑、暖金、米白配色，中文排版清晰。
+```
+
+**生成结果**
+
+![谷物粉电商详情板生成结果](../assets/cases/ecommerce-product/ecommerce-grain-board-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ecommerce.md#case-154-e-commerce-main-image---premium-grain-powder-ad-board)
+- 备注：参考 EvoLinkAI CC0 案例的谷物粉电商详情板信息分区，去除真实品牌后改写为原创谷物粉产品；小号中文需人工复核。

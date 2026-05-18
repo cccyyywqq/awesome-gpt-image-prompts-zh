@@ -119,3 +119,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-11-gta-6-in-bangalore-flower-market)
 - 备注：参考 EvoLinkAI CC0 案例的城市花市场景类型，去除游戏和真实地点指向后改写为岭南花市街区概念。
+
+## A011 社区参考：窄巷黑胶酒吧场景
+
+```text
+请生成一张 16:9 商业空间场景概念图。画面是雨后窄巷尽头的一间原创黑胶酒吧，入口很小，木门半开，暖黄色灯光从室内洒到湿润石板路上。室内能看到吧台、黑胶唱片墙、少量高脚椅和一盏低垂吊灯；室外两侧是旧砖墙、绿植和反光积水。镜头从巷口低机位看向酒吧入口，空间层次清楚，氛围安静、电影感、适合小型商业改造参考。
+```
+
+**生成结果**
+
+![窄巷黑胶酒吧场景生成结果](../assets/cases/architecture-scene/architecture-jazz-bar-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-12-gta-6-shinjuku-bar-scene)
+- 备注：参考 EvoLinkAI CC0 案例的城市酒吧地点想象场景类型，去除游戏、真实地点和真实酒吧指向后改写为原创窄巷黑胶酒吧。

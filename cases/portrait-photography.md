@@ -119,3 +119,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-2-amateur-iphone-keynote-snapshot)
 - 备注：参考 EvoLinkAI CC0 案例的观众席手机抓拍构图，改写为无真实品牌和无真实名人的中文科技发布会纪实照。
+
+## R011 社区参考：柔光窗边日常人像
+
+```text
+请生成一张 9:16 柔光窗边生活方式人像。人物是一位 30 岁左右的原创中文内容创作者，穿宽松白衬衫和浅色长裤，站在白纱窗帘旁，手里拿着一本无品牌笔记本，姿态自然放松，微笑看向镜头。光线为清晨自然窗光，背景是简洁浅色工作室，有木桌、绿植和少量书本虚化。整体像 35mm 胶片摄影，轻微颗粒、低对比、空气感、真实皮肤质感，不要商业硬照感。
+```
+
+**生成结果**
+
+![柔光窗边日常人像生成结果](../assets/cases/portrait-photography/portrait-window-007.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/portrait.md#case-6-soft-airy-35mm-portrait)
+- 备注：参考 EvoLinkAI CC0 案例的柔光、35mm 胶片和室内窗边日常人像氛围，改写为原创中文内容创作者生活方式人像。
