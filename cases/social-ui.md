@@ -135,3 +135,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-5-multi-platform-content-screenshots)
 - 备注：参考 EvoLinkAI CC0 案例的多平台内容截图并列展示形式，改写为无真实平台标识的原创内容运营 mockup；小号评论文字需人工复核。
+
+## S012 社区参考：成语故事解释幻灯片
+
+```text
+请生成一张 16:9 中文知识科普幻灯片，主题是「守株待兔」。画面融合温和儿童插画和高密度讲解幻灯片：左侧是简洁插画，一个农夫坐在树桩旁等待，远处有田地和兔子剪影；右侧是结构化信息区，包含「故事背景」「关键转折」「寓意」「现代启发」四个模块，每个模块用短中文要点呈现。顶部标题「守株待兔」，底部有一条简洁流程箭头：偶然收获 → 放弃耕作 → 空等落空。整体清楚、有教育感，不要花哨。
+```
+
+**生成结果**
+
+![成语故事解释幻灯片生成结果](../assets/cases/social-ui/social-story-slide-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-10-momotaro-explainer-slide)
+- 备注：参考 EvoLinkAI CC0 案例的故事解释幻灯片和高信息密度讲解结构，改写为中文成语故事科普页；正文小号中文需人工复核。

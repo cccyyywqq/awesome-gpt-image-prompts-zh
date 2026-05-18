@@ -135,3 +135,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ecommerce.md#case-154-e-commerce-main-image---premium-grain-powder-ad-board)
 - 备注：参考 EvoLinkAI CC0 案例的谷物粉电商详情板信息分区，去除真实品牌后改写为原创谷物粉产品；小号中文需人工复核。
+
+## E012 社区参考：开放式耳机功能信息图
+
+```text
+请生成一张 4:5 科技产品电商信息图，产品是原创开放式无线耳机「轻听 Air」。画面前景是一只手打开白色充电盒，盒内有两只白色开放式耳机，产品边缘有柔和高光。背景是一位正在通勤的年轻用户，耳边佩戴同款耳机，背景为干净浅灰棚拍渐变和少量动感光线。画面左侧用 4 个图标列出卖点：「开放佩戴」「通话降噪」「轻量舒适」「24h 续航」，顶部标题写「轻听 Air」。整体现代、清爽、真实，避免真实品牌感。
+```
+
+**生成结果**
+
+![开放式耳机功能信息图生成结果](../assets/cases/ecommerce-product/ecommerce-earbuds-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ecommerce.md#case-155-e-commerce-main-image---earbuds-e-commerce-infographic)
+- 备注：参考 EvoLinkAI CC0 案例的耳机电商信息图近景产品和卖点排版结构，去除真实品牌指向后改写为原创开放式耳机。

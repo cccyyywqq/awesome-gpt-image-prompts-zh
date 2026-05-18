@@ -135,3 +135,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-12-gta-6-shinjuku-bar-scene)
 - 备注：参考 EvoLinkAI CC0 案例的城市酒吧地点想象场景类型，去除游戏、真实地点和真实酒吧指向后改写为原创窄巷黑胶酒吧。
+
+## A012 社区参考：河岸城市更新鸟瞰
+
+```text
+请生成一张 16:9 城市更新概念鸟瞰图。画面是一条 S 形河道穿过原创中型城市，两岸有步行栈道、口袋公园、旧厂房改造咖啡馆、低层住宅、社区图书馆和小型码头。清晨薄雾中，河面反射柔和金色阳光，桥梁和绿道把不同街区连接起来。构图从高处斜向俯视，空间层次清晰，城市不拥挤，建筑尺度真实，整体像规划汇报中的温暖概念图。
+```
+
+**生成结果**
+
+![河岸城市更新鸟瞰生成结果](../assets/cases/architecture-scene/architecture-riverside-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-1-boston-spring-2026-city-poster)
+- 备注：参考 EvoLinkAI CC0 案例的河流作为城市叙事动线的构图语言，去除真实城市地标后改写为原创河岸城市更新概念场景。

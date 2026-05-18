@@ -134,3 +134,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-3-chengdu-food-map-illustration)
 - 备注：参考 EvoLinkAI CC0 案例的城市美食地图鸟瞰手绘结构，改写为不指向真实城市和真实店名的原创早餐散步地图。
+
+## P012 社区参考：江南水路撕纸海报
+
+```text
+请生成一张 9:16 新中式文旅海报，主题是「江南水路」。画面以浅米白纸张为底，一条 S 形撕纸裂口从上到下贯穿画面，裂口内部露出蓝绿色水路、白墙黛瓦、石桥、乌篷船、春柳和远处薄雾。裂口边缘有轻微纸艺立体阴影，整体留白充足。下方标题写「江南水路」，副标题写「一城烟雨，半卷春声」。风格高级、克制、清新，像城市文旅主视觉，不要拥挤。
+```
+
+**生成结果**
+
+![江南水路撕纸海报生成结果](../assets/cases/poster-illustration/poster-paper-cut-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-4-chinese-minimalist-s-shaped-poster)
+- 备注：参考 EvoLinkAI CC0 案例的 S 形撕纸裂口和新中式山水海报结构，改写为原创江南水路文旅主视觉。

@@ -135,3 +135,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/portrait.md#case-6-soft-airy-35mm-portrait)
 - 备注：参考 EvoLinkAI CC0 案例的柔光、35mm 胶片和室内窗边日常人像氛围，改写为原创中文内容创作者生活方式人像。
+
+## R012 社区参考：橙红渐变剪影肖像
+
+```text
+请生成一张 4:5 电影感极简肖像。人物是一位原创中年建筑策展人，穿深色高领上衣，侧身站在橙红渐变空间中，地面有微弱镜面反射。光线从人物背后打出强烈轮廓光，正面保持深阴影，只能看到清晰的脸部侧轮廓、手部姿态和衣料边缘。构图居中、对称、极简，色彩从深橙到暗红过渡，整体像艺术展宣传肖像，克制、有张力。
+```
+
+**生成结果**
+
+![橙红渐变剪影肖像生成结果](../assets/cases/portrait-photography/portrait-gradient-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/portrait.md#case-2-cinematic-minimal-portrait)
+- 备注：参考 EvoLinkAI CC0 案例的橙红渐变环境、强剪影和极简电影感构图，改写为原创建筑策展人概念肖像。

@@ -135,3 +135,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-9-chaos-notes-hidden-face-character-art)
 - 备注：参考 EvoLinkAI CC0 案例的混沌手写符号中浮现角色面孔的视觉机制，改写为原创城市观察员实验角色海报。
+
+## C012 社区参考：茶馆侦探角色主视觉
+
+```text
+请生成一张 9:16 原创角色宣传海报，标题为「茶馆侦探」。上半部分是一个巨大的茶杯蒸汽剪影，蒸汽中用双重曝光拼贴出老茶馆、雨巷、账本、铜钥匙和线索纸片；中下部是一位原创年轻侦探角色，穿深青色长外套，手持小茶盏和笔记本，站在柔和雾气里。画面左右有少量茶叶、窗格和灯影作为辅助元素。整体东方悬疑、精致、留白充足，像动画电影角色主视觉，不要真实 IP 或版权角色。
+```
+
+**生成结果**
+
+![茶馆侦探角色主视觉生成结果](../assets/cases/character-ip/character-silhouette-008.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-14-character-key-visual-poster-with-silhouette-collage)
+- 备注：参考 EvoLinkAI CC0 案例的角色主视觉、巨大剪影和双重曝光叙事拼贴结构，改写为原创茶馆侦探角色海报。

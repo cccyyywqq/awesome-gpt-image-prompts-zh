@@ -1288,6 +1288,210 @@
           "notes": "根据 EvoLinkAI CC0 城市酒吧地点想象改写后使用 gpt-image-2 生成，展示雨后窄巷商业空间氛围。"
         }
       ]
+    },
+    {
+      "id": "poster-paper-cut-008",
+      "title": "江南水路撕纸海报",
+      "category": "poster-illustration",
+      "use_case": "城市文旅海报",
+      "aspect_ratio": "9:16",
+      "prompt": "请生成一张 9:16 新中式文旅海报，主题是「江南水路」。画面以浅米白纸张为底，一条 S 形撕纸裂口从上到下贯穿画面，裂口内部露出蓝绿色水路、白墙黛瓦、石桥、乌篷船、春柳和远处薄雾。裂口边缘有轻微纸艺立体阴影，整体留白充足。下方标题写「江南水路」，副标题写「一城烟雨，半卷春声」。风格高级、克制、清新，像城市文旅主视觉，不要拥挤。",
+      "negative_prompt": "真实城市 logo、真实景区标识、文字乱码、画面拥挤、过度国潮贴纸、颜色过饱和、低清晰度、水印、英文",
+      "tags": [
+        "文旅海报",
+        "撕纸",
+        "新中式",
+        "江南"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-4-chinese-minimalist-s-shaped-poster",
+        "license": "CC0-1.0",
+        "adaptation": "参考其 S 形撕纸裂口和新中式山水海报结构，改写为原创江南水路文旅主视觉。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-paper-cut-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 S 形撕纸新中式海报结构改写后使用 gpt-image-2 生成，标题可读，适合文旅主视觉参考。"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-earbuds-008",
+      "title": "开放式耳机功能信息图",
+      "category": "ecommerce-product",
+      "use_case": "科技产品卖点图",
+      "aspect_ratio": "4:5",
+      "prompt": "请生成一张 4:5 科技产品电商信息图，产品是原创开放式无线耳机「轻听 Air」。画面前景是一只手打开白色充电盒，盒内有两只白色开放式耳机，产品边缘有柔和高光。背景是一位正在通勤的年轻用户，耳边佩戴同款耳机，背景为干净浅灰棚拍渐变和少量动感光线。画面左侧用 4 个图标列出卖点：「开放佩戴」「通话降噪」「轻量舒适」「24h 续航」，顶部标题写「轻听 Air」。整体现代、清爽、真实，避免真实品牌感。",
+      "negative_prompt": "Apple、AirPods、真实品牌 logo、侵权外观、文字乱码、手指变形、产品变形、过度炫光、英文、水印",
+      "tags": [
+        "耳机",
+        "科技产品",
+        "电商信息图",
+        "卖点"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ecommerce.md#case-155-e-commerce-main-image---earbuds-e-commerce-infographic",
+        "license": "CC0-1.0",
+        "adaptation": "参考其耳机电商信息图的近景产品和卖点排版结构，去除真实品牌指向后改写为原创开放式耳机。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-earbuds-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 耳机电商信息图结构改写后使用 gpt-image-2 生成，展示产品近景、佩戴场景和卖点图标组合。"
+        }
+      ]
+    },
+    {
+      "id": "portrait-gradient-008",
+      "title": "橙红渐变剪影肖像",
+      "category": "portrait-photography",
+      "use_case": "概念人像海报",
+      "aspect_ratio": "4:5",
+      "prompt": "请生成一张 4:5 电影感极简肖像。人物是一位原创中年建筑策展人，穿深色高领上衣，侧身站在橙红渐变空间中，地面有微弱镜面反射。光线从人物背后打出强烈轮廓光，正面保持深阴影，只能看到清晰的脸部侧轮廓、手部姿态和衣料边缘。构图居中、对称、极简，色彩从深橙到暗红过渡，整体像艺术展宣传肖像，克制、有张力。",
+      "negative_prompt": "真实名人、过度性感、脸部崩坏、塑料皮肤、复杂背景、文字、logo、水印、低清晰度、肢体变形",
+      "tags": [
+        "极简人像",
+        "剪影",
+        "电影感",
+        "渐变"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/portrait.md#case-2-cinematic-minimal-portrait",
+        "license": "CC0-1.0",
+        "adaptation": "参考其橙红渐变环境、强剪影和极简电影感构图，改写为原创建筑策展人概念肖像。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-gradient-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 极简橙红渐变肖像构图改写后使用 gpt-image-2 生成，适合概念人像和展览宣传视觉。"
+        }
+      ]
+    },
+    {
+      "id": "character-silhouette-008",
+      "title": "茶馆侦探角色主视觉",
+      "category": "character-ip",
+      "use_case": "角色宣传海报",
+      "aspect_ratio": "9:16",
+      "prompt": "请生成一张 9:16 原创角色宣传海报，标题为「茶馆侦探」。上半部分是一个巨大的茶杯蒸汽剪影，蒸汽中用双重曝光拼贴出老茶馆、雨巷、账本、铜钥匙和线索纸片；中下部是一位原创年轻侦探角色，穿深青色长外套，手持小茶盏和笔记本，站在柔和雾气里。画面左右有少量茶叶、窗格和灯影作为辅助元素。整体东方悬疑、精致、留白充足，像动画电影角色主视觉，不要真实 IP 或版权角色。",
+      "negative_prompt": "版权角色、真实影视 IP、真实明星、文字乱码、元素过多、脸部崩坏、肢体变形、血腥恐怖、logo、水印",
+      "tags": [
+        "角色海报",
+        "双重曝光",
+        "侦探",
+        "东方悬疑"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-14-character-key-visual-poster-with-silhouette-collage",
+        "license": "CC0-1.0",
+        "adaptation": "参考其角色主视觉、巨大剪影和双重曝光叙事拼贴结构，改写为原创茶馆侦探角色海报。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-silhouette-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 巨大剪影和双重曝光角色主视觉结构改写后使用 gpt-image-2 生成，展示原创茶馆侦探角色氛围。"
+        }
+      ]
+    },
+    {
+      "id": "social-story-slide-008",
+      "title": "成语故事解释幻灯片",
+      "category": "social-ui",
+      "use_case": "知识科普幻灯片",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 中文知识科普幻灯片，主题是「守株待兔」。画面融合温和儿童插画和高密度讲解幻灯片：左侧是简洁插画，一个农夫坐在树桩旁等待，远处有田地和兔子剪影；右侧是结构化信息区，包含「故事背景」「关键转折」「寓意」「现代启发」四个模块，每个模块用短中文要点呈现。顶部标题「守株待兔」，底部有一条简洁流程箭头：偶然收获 → 放弃耕作 → 空等落空。整体清楚、有教育感，不要花哨。",
+      "negative_prompt": "真实教材版权、真实出版社 logo、文字乱码、信息过密、低龄幼稚过度、英文、复杂表格、水印、低清晰度",
+      "tags": [
+        "知识卡片",
+        "幻灯片",
+        "成语故事",
+        "科普"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-10-momotaro-explainer-slide",
+        "license": "CC0-1.0",
+        "adaptation": "参考其故事解释幻灯片和高信息密度讲解结构，改写为中文成语故事科普页。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-story-slide-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 故事解释幻灯片结构改写后使用 gpt-image-2 生成，版式和主标题清楚，正文小号中文需人工复核。"
+        }
+      ]
+    },
+    {
+      "id": "architecture-riverside-008",
+      "title": "河岸城市更新鸟瞰",
+      "category": "architecture-scene",
+      "use_case": "城市更新概念",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 城市更新概念鸟瞰图。画面是一条 S 形河道穿过原创中型城市，两岸有步行栈道、口袋公园、旧厂房改造咖啡馆、低层住宅、社区图书馆和小型码头。清晨薄雾中，河面反射柔和金色阳光，桥梁和绿道把不同街区连接起来。构图从高处斜向俯视，空间层次清晰，城市不拥挤，建筑尺度真实，整体像规划汇报中的温暖概念图。",
+      "negative_prompt": "真实城市地标、真实项目 logo、过度未来主义、空间不合理、道路混乱、文字乱码、过饱和、低清晰度、水印",
+      "tags": [
+        "城市更新",
+        "河岸",
+        "鸟瞰",
+        "规划概念"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/poster.md#case-1-boston-spring-2026-city-poster",
+        "license": "CC0-1.0",
+        "adaptation": "参考其河流作为城市叙事动线的构图语言，去除真实城市地标后改写为原创河岸城市更新概念场景。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-riverside-008.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 河流城市叙事动线改写后使用 gpt-image-2 生成，展示原创河岸城市更新鸟瞰概念。"
+        }
+      ]
     }
   ]
 }
