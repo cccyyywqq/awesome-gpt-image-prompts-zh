@@ -103,3 +103,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ad-creative.md#case-90-4-panel-japanese-digital-ad-banner-grid)
 - 备注：参考 EvoLinkAI CC0 案例的 2x2 广告 Banner 矩阵结构，改写为中文多品类电商投放素材。
+
+## E010 社区参考：卖场 POP 促销牌
+
+```text
+请生成一张 4:5 线下卖场 POP 促销牌。产品是一台小型桌面空气循环扇，白色机身，放在货架端头展示台上；画面风格像真实商场里手写感 POP 海报，但更整洁高级。主标题「清凉上桌」，副标题「小空间也有大循环」，价格区写「限时 199」。使用黄色、红色和白色做醒目信息层级，旁边有风感线条和 3 个卖点图标：静音、轻巧、易清洁。
+```
+
+**生成结果**
+
+![卖场 POP 促销牌生成结果](../assets/cases/ecommerce-product/ecommerce-pop-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-34-don-quijote-promo-pop-poster)
+- 备注：参考 EvoLinkAI CC0 案例的卖场 POP 风格方向，去除真实品牌后改写为原创小家电促销牌。

@@ -103,3 +103,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-2-persona5-character-reference-card)
 - 备注：参考 EvoLinkAI CC0 案例的角色资料卡结构，改写为无版权角色的中文三视图设定卡。
+
+## C010 社区参考：国风双人武术对战
+
+```text
+请生成一张 16:9 动态国风动作插画。画面中两位原创年轻武者在木质练武场中对战：前景角色穿红白短打，低身前冲，周围有红色气流和水花；背景角色穿青绿色长衫，正在空中侧踢，周围有蓝色气流。地面木板有冲击裂纹和飞散尘土，上方悬挂木牌文字「武术会」。镜头低角度，动作夸张但人体合理，整体像动画电影关键帧。
+```
+
+**生成结果**
+
+![国风双人武术对战生成结果](../assets/cases/character-ip/character-battle-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-10-anime-martial-arts-battle-illustration)
+- 备注：参考 EvoLinkAI CC0 案例的双人武术对战、低角度和能量效果结构，改写为原创国风动作插画。

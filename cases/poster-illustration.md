@@ -102,3 +102,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-25-museum-style-hanfu-breakdown-infographic)
 - 备注：参考 EvoLinkAI CC0 案例的“博物馆图鉴式中文拆解信息图”结构，改写为青瓷器物图鉴。
+
+## P010 社区参考：中文书法临摹字帖
+
+```text
+请生成一张 3:4 中文书法临摹字帖海报。主题文字为「春风入砚」，采用楷书练习页版式：顶部是标题「春风入砚」，中间展示 4 个大号范字，每个字放在米字格中，旁边有简短笔画提示；下方有 2 行浅灰描红练习格。纸张为米白宣纸质感，墨色清润，整体像可打印的高质量书法字帖，安静、规整、可读。
+```
+
+**生成结果**
+
+![中文书法临摹字帖生成结果](../assets/cases/poster-illustration/poster-copybook-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-33-calligraphy-copybook-sheet)
+- 备注：参考 EvoLinkAI CC0 案例的书法临摹字帖任务形式，改写为中文楷书练习页；主标题和大字可读，小号笔画说明仍需人工复核。

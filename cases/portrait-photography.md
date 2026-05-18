@@ -103,3 +103,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-3-gal-game-character-introduction-page)
 - 备注：参考 EvoLinkAI CC0 案例的角色介绍页信息层级，改写为真实中文创作者 About 页面人像。
+
+## R010 社区参考：发布会观众席抓拍
+
+```text
+请生成一张 16:9 活动纪实摄影。画面像观众席中用手机拍下的新品发布会现场，远处舞台上是一位中文科技创业者正在介绍一款电子阅读器新品，身后大屏只有清晰标题「新一代阅读体验」。前景有几排观众的肩膀和手机剪影，画面略有真实抓拍感但不模糊，灯光为发布会蓝白舞台光。不要出现真实品牌、真实名人或真实公司标识。
+```
+
+**生成结果**
+
+![发布会观众席抓拍生成结果](../assets/cases/portrait-photography/portrait-keynote-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-2-amateur-iphone-keynote-snapshot)
+- 备注：参考 EvoLinkAI CC0 案例的观众席手机抓拍构图，改写为无真实品牌和无真实名人的中文科技发布会纪实照。

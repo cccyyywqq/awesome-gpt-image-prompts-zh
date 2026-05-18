@@ -103,3 +103,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-7-mecha-girl-sea-city-key-visual)
 - 备注：参考 EvoLinkAI CC0 案例的 sea-city、雾气和冷暖光场景语言，去除角色主体后改写为建筑概念图。
+
+## A010 社区参考：岭南花市街区
+
+```text
+请生成一张 16:9 城市街区概念图。场景是清晨的岭南花市步行街，两侧是骑楼建筑和半开放花店，檐下挂着暖色灯笼，摊位上有整齐的兰花、玫瑰、菊花和绿植。地面微湿，反射晨光，少量行人正在挑选花束。镜头从街口看向深处，空间动线清楚，建筑细节真实，整体有生活气和城市更新设计感。
+```
+
+**生成结果**
+
+![岭南花市街区生成结果](../assets/cases/architecture-scene/architecture-flower-market-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-11-gta-6-in-bangalore-flower-market)
+- 备注：参考 EvoLinkAI CC0 案例的城市花市场景类型，去除游戏和真实地点指向后改写为岭南花市街区概念。

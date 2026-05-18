@@ -103,3 +103,19 @@
 - 许可：MIT
 - 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-1-one-prompt-ui-design-generation)
 - 备注：参考 EvoLinkAI CC0 案例的“一句话 UI 设计系统”任务形式，改写为中文阅读工具设计系统。
+
+## S010 社区参考：宋风社交动态界面
+
+```text
+请生成一张 9:16 手机社交动态界面 mockup，主题是「宋风朋友圈」。界面采用深色模式和宋代雅致配色，头像是原创宋代文人画像，用户名为「东篱居士」，发布内容为「雨后煮茶，窗前新竹很绿。」配图是一张工笔画风茶盏和竹影。点赞区写「山月、清溪、阿竹等 26 人」，评论区有两条短评：「好雅」「茶香都出来了」。界面图标用宋代纹样替代，但整体仍像现代社交 App 截图。
+```
+
+**生成结果**
+
+![宋风社交动态界面生成结果](../assets/cases/social-ui/social-ancient-feed-006.webp)
+
+- 模型：gpt-image-2
+- 来源：项目官方生成图（非转载）
+- 许可：MIT
+- 参考：EvoLinkAI/awesome-gpt-image-2-API-and-Prompts（CC0-1.0），[原案例链接](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-4-song-dynasty-social-media-feed)
+- 备注：参考 EvoLinkAI CC0 案例的“宋朝社交媒体界面”古今融合构思，改写为原创用户和原创内容；整体界面成立，部分小号中文需人工复核。

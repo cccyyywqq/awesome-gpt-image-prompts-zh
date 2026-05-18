@@ -880,6 +880,210 @@
           "notes": "根据 EvoLinkAI CC0 海上城市场景语言改写后使用 gpt-image-2 生成，展示废弃海上城市场景概念。"
         }
       ]
+    },
+    {
+      "id": "poster-copybook-006",
+      "title": "中文书法临摹字帖",
+      "category": "poster-illustration",
+      "use_case": "字帖排版",
+      "aspect_ratio": "3:4",
+      "prompt": "请生成一张 3:4 中文书法临摹字帖海报。主题文字为「春风入砚」，采用楷书练习页版式：顶部是标题「春风入砚」，中间展示 4 个大号范字，每个字放在米字格中，旁边有简短笔画提示；下方有 2 行浅灰描红练习格。纸张为米白宣纸质感，墨色清润，整体像可打印的高质量书法字帖，安静、规整、可读。",
+      "negative_prompt": "错别字、乱码、英文字母、花哨背景、过度装饰、网格错乱、笔画变形、水印、真实机构 logo",
+      "tags": [
+        "字帖",
+        "书法",
+        "中文排版",
+        "临摹"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-33-calligraphy-copybook-sheet",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“生成书法临摹字帖”的任务形式，改写为可打印的简体中文楷书字帖海报。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/poster-illustration/poster-copybook-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 书法字帖任务形式改写后使用 gpt-image-2 生成，主标题和大字可读，小号笔画说明仍需人工复核。"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-pop-006",
+      "title": "卖场 POP 促销牌",
+      "category": "ecommerce-product",
+      "use_case": "线下促销物料",
+      "aspect_ratio": "4:5",
+      "prompt": "请生成一张 4:5 线下卖场 POP 促销牌。产品是一台小型桌面空气循环扇，白色机身，放在货架端头展示台上；画面风格像真实商场里手写感 POP 海报，但更整洁高级。主标题「清凉上桌」，副标题「小空间也有大循环」，价格区写「限时 199」。使用黄色、红色和白色做醒目信息层级，旁边有风感线条和 3 个卖点图标：静音、轻巧、易清洁。",
+      "negative_prompt": "真实商场品牌、真实 logo、文字乱码、价格混乱、产品变形、廉价脏乱、信息过满、英文、水印",
+      "tags": [
+        "POP",
+        "促销",
+        "卖场",
+        "小家电"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-34-don-quijote-promo-pop-poster",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“卖场广告 POP 风格”的任务方向，去除真实品牌后改写为原创小家电促销牌。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/ecommerce-product/ecommerce-pop-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 卖场 POP 风格方向改写后使用 gpt-image-2 生成，展示小家电促销牌的醒目信息层级。"
+        }
+      ]
+    },
+    {
+      "id": "portrait-keynote-006",
+      "title": "发布会观众席抓拍",
+      "category": "portrait-photography",
+      "use_case": "活动纪实照片",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 活动纪实摄影。画面像观众席中用手机拍下的新品发布会现场，远处舞台上是一位中文科技创业者正在介绍一款电子阅读器新品，身后大屏只有清晰标题「新一代阅读体验」。前景有几排观众的肩膀和手机剪影，画面略有真实抓拍感但不模糊，灯光为发布会蓝白舞台光。不要出现真实品牌、真实名人或真实公司标识。",
+      "negative_prompt": "真实名人、真实品牌、舞台文字乱码、过度模糊、低清晰度、夸张舞美、广告棚拍感、水印、英文",
+      "tags": [
+        "发布会",
+        "纪实",
+        "活动摄影",
+        "抓拍"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-2-amateur-iphone-keynote-snapshot",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“观众席手机抓拍发布会”的构图方式，改写为无真实品牌和无真实名人的中文科技发布会纪实照。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/portrait-photography/portrait-keynote-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 观众席发布会抓拍构图改写后使用 gpt-image-2 生成，避免真实品牌、真实名人和真实公司标识。"
+        }
+      ]
+    },
+    {
+      "id": "character-battle-006",
+      "title": "国风双人武术对战",
+      "category": "character-ip",
+      "use_case": "动作插画",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 动态国风动作插画。画面中两位原创年轻武者在木质练武场中对战：前景角色穿红白短打，低身前冲，周围有红色气流和水花；背景角色穿青绿色长衫，正在空中侧踢，周围有蓝色气流。地面木板有冲击裂纹和飞散尘土，上方悬挂木牌文字「武术会」。镜头低角度，动作夸张但人体合理，整体像动画电影关键帧。",
+      "negative_prompt": "版权角色、真实武馆 logo、肢体变形、脸部崩坏、文字乱码、过度血腥、背景杂乱、水印、英文",
+      "tags": [
+        "动作插画",
+        "武术",
+        "国风",
+        "双人对战"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-10-anime-martial-arts-battle-illustration",
+        "license": "CC0-1.0",
+        "adaptation": "参考其双人武术对战、低角度和能量效果结构，改写为原创国风动作插画。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/character-ip/character-battle-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 双人武术对战构图改写后使用 gpt-image-2 生成，适合观察动作张力和能量效果。"
+        }
+      ]
+    },
+    {
+      "id": "social-ancient-feed-006",
+      "title": "宋风社交动态界面",
+      "category": "social-ui",
+      "use_case": "创意社交界面",
+      "aspect_ratio": "9:16",
+      "prompt": "请生成一张 9:16 手机社交动态界面 mockup，主题是「宋风朋友圈」。界面采用深色模式和宋代雅致配色，头像是原创宋代文人画像，用户名为「东篱居士」，发布内容为「雨后煮茶，窗前新竹很绿。」配图是一张工笔画风茶盏和竹影。点赞区写「山月、清溪、阿竹等 26 人」，评论区有两条短评：「好雅」「茶香都出来了」。界面图标用宋代纹样替代，但整体仍像现代社交 App 截图。",
+      "negative_prompt": "真实平台 logo、真实历史人物头像、文字乱码、评论过多、小字密集、界面杂乱、英文、水印、低清晰度",
+      "tags": [
+        "社交界面",
+        "宋风",
+        "手机截图",
+        "创意 UI"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/ui.md#case-4-song-dynasty-social-media-feed",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“宋朝社交媒体界面”的古今融合构思，改写为原创用户和原创内容的中文社交动态 mockup。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/social-ui/social-ancient-feed-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 宋风社交界面构思改写后使用 gpt-image-2 生成，整体界面成立，部分小号中文需人工复核。"
+        }
+      ]
+    },
+    {
+      "id": "architecture-flower-market-006",
+      "title": "岭南花市街区",
+      "category": "architecture-scene",
+      "use_case": "城市街区概念",
+      "aspect_ratio": "16:9",
+      "prompt": "请生成一张 16:9 城市街区概念图。场景是清晨的岭南花市步行街，两侧是骑楼建筑和半开放花店，檐下挂着暖色灯笼，摊位上有整齐的兰花、玫瑰、菊花和绿植。地面微湿，反射晨光，少量行人正在挑选花束。镜头从街口看向深处，空间动线清楚，建筑细节真实，整体有生活气和城市更新设计感。",
+      "negative_prompt": "真实店铺 logo、拥挤混乱、过度旅游宣传感、空间不合理、低清晰度、过饱和、文字乱码、水印",
+      "tags": [
+        "花市",
+        "街区",
+        "岭南",
+        "城市更新"
+      ],
+      "variables": [],
+      "source": "community",
+      "reference": {
+        "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+        "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/character.md#case-11-gta-6-in-bangalore-flower-market",
+        "license": "CC0-1.0",
+        "adaptation": "参考其“城市花市地点想象”的场景类型，去除游戏和真实地点指向后改写为岭南花市街区概念。"
+      },
+      "outputs": [
+        {
+          "type": "generated",
+          "path": "assets/cases/architecture-scene/architecture-flower-market-006.webp",
+          "model": "gpt-image-2",
+          "source_url": "",
+          "license": "MIT",
+          "attribution": "awesome-gpt-image-prompts-zh",
+          "notes": "根据 EvoLinkAI CC0 花市场景类型改写后使用 gpt-image-2 生成，展示岭南骑楼花市街区的空间动线和生活氛围。"
+        }
+      ]
     }
   ]
 }
